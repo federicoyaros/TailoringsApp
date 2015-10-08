@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000">
+
+    <Button
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:text="+"
+        android:id="@+id/btnNuevoProyecto"
+        android:background="@drawable/boton_redondo"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/abc_text_size_headline_material"
+        android:onClick="onClickNuevoProyecto"
+        android:backgroundTint="#ff26b479"
+        android:layout_gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/listViewProyectos"
+        android:layout_marginTop="10dp"
+        android:background="#ff000000"
+        android:backgroundTint="#fffdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="No hay proyectos disponibles, para crear uno nuevo presione el botón con el signo +"
+        android:id="@+id/txtNoHayProyectos"
+        android:textColor="#fffdfdfe"
+        android:gravity="center"
+        android:textSize="16dp" />
+</LinearLayout>

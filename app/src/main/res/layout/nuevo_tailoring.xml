@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nuevo tailoring"
+        android:id="@+id/txtNuevoTailoring"
+        android:textSize="@dimen/abc_dialog_padding_material"
+        android:textAlignment="center"
+        android:textColor="#ffffffff"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Proyecto:"
+        android:id="@+id/txtProyecto"
+        android:textColor="#ffffffff" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/spinnerProyectos"
+        android:background="#fffdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable de metodología:"
+        android:id="@+id/txtResponsableMetodologia"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etResponsableMetodologia"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable del proyecto:"
+        android:id="@+id/txtResponsableProyecto"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etResponsableProyecto"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:maxLength="30" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:weightSum="1"
+        android:layout_weight="0.21">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CREAR"
+            android:id="@+id/btnCrear"
+            android:layout_gravity="bottom|center_horizontal"
+            android:layout_weight="0.29"
+            android:onClick="onClickCrearTailoring" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:id="@+id/btnVolver"
+            android:layout_weight="0.29"
+            android:onClick="onClickVolverNuevoTailoring"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>

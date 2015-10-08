@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Activo"
+        android:id="@+id/switchActivo"
+        android:layout_gravity="right"
+        android:checked="false"
+        android:textColor="#fffdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Nombre:"
+        android:id="@+id/textView11"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etNombre"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable:"
+        android:id="@+id/textView11"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etResponsable"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Socio a cargo:"
+        android:id="@+id/textView11"
+        android:textColor="#ffffffff" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSocio"
+        android:backgroundTint="#ffffffff"
+        android:textColor="#ffffffff"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Metodología:"
+        android:id="@+id/textView11"
+        android:textColor="#ffffffff" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/spinnerMetodologia"
+        android:layout_gravity="center_horizontal"
+        android:background="#fffdfdfe" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_weight="0.09">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guardar"
+            android:id="@+id/btnGuardar"
+            android:layout_weight="0.29"
+            android:onClick="onClickActualizarProyecto"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:id="@+id/btnEliminar"
+            android:layout_weight="0.29"
+            android:onClick="onClickEliminarProyecto"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:id="@+id/btnVolver"
+            android:layout_weight="0.29"
+            android:onClick="onClickVolverEditarProyecto"
+            android:layout_gravity="bottom|center_horizontal" />
+    </LinearLayout>
+
+</LinearLayout>

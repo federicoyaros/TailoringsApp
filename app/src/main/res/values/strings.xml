@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TailoringsApp</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="procesos">
+        <item>Aseguramiento de Calidad</item>
+        <item>Medicion y analisis</item>
+        <item>Administracion de riesgos</item>
+        <item>Testing</item>
+        <item>Desarrollo</item>
+        <item>Gestion de configuracion</item>
+        <item>Diseño</item>
+        <item>Despliegue</item>
+        <item>Gestion de proyectos</item>
+        <item>Gestion de casos de cliente</item>
+    </string-array>
+</resources>

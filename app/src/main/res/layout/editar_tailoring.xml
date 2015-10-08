@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Proyecto:"
+        android:id="@+id/textView16"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etProyecto"
+        android:textColor="#fffdfdfe"
+        android:backgroundTint="#fffdfdfe"
+        android:maxLength="30"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable de metodología:"
+        android:id="@+id/textView17"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etResponsableMetodologia"
+        android:textColor="#fffdfdfe"
+        android:backgroundTint="#fffdfdfe"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable del proyecto:"
+        android:id="@+id/textView18"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etResponsableProyecto"
+        android:textColor="#fffdfdfe"
+        android:backgroundTint="#fffdfdfe"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fecha de creación:"
+        android:id="@+id/textView19"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFechaCreacion"
+        android:textColor="#fffdfdfe"
+        android:backgroundTint="#fffdfdfe"
+        android:maxLength="30" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fecha de última modificación:"
+        android:id="@+id/textView20"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etFechaModificado"
+        android:textColor="#fffdfdfe"
+        android:backgroundTint="#fffdfdfe"
+        android:maxLength="30" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.29">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="editar"
+            android:id="@+id/btnEditar"
+            android:layout_weight="0.29"
+            android:onClick="onClickActualizarProyecto"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eliminar"
+            android:id="@+id/btnEliminar"
+            android:layout_weight="0.29"
+            android:onClick="onClickEliminarEditarTailoring"
+            android:layout_gravity="bottom|center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Volver"
+            android:id="@+id/btnVolver"
+            android:layout_weight="0.29"
+            android:onClick="onClickVolverEditarTailoring"
+            android:layout_gravity="bottom|center_horizontal" />
+    </LinearLayout>
+</LinearLayout>

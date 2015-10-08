@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff000000"
+    android:weightSum="1">
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No aplica"
+        android:id="@+id/switchNoAplica"
+        android:layout_gravity="right"
+        android:textColor="#fffdfdfe"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Ítem:"
+        android:id="@+id/textView10"
+        android:textColor="#fffdfdfe" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etItem"
+        android:backgroundTint="#fffdfdfe"
+        android:textColor="#fffdfdfe"
+        android:enabled="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Template:"
+        android:id="@+id/textView12"
+        android:textColor="#fffdfdfe" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/spinnerTemplate"
+        android:background="#fffdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Responsable:"
+        android:id="@+id/textView13"
+        android:textColor="#fffdfdfe" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/spinnerResponsable"
+        android:background="#fffdfdfe" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Herramienta:"
+        android:id="@+id/textView14"
+        android:textColor="#fffdfdfe" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar"
+        android:id="@+id/btnSeleccionar"
+        android:onClick="onClickA" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Fase:"
+        android:id="@+id/textView15"
+        android:textColor="#fffdfdfe" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:id="@+id/spinnerFase"
+        android:background="#fffdfdfe" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:layout_weight="0.24">
+
+        <Button
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:text=">"
+            android:id="@+id/btnSiguiente"
+            android:background="@drawable/boton_redondo"
+            android:textColor="#ff3f3f3f"
+            android:textSize="@dimen/abc_text_size_headline_material"
+            android:onClick="onClickSiguiente"
+            android:backgroundTint="#ffd5d6d6"
+            android:layout_marginRight= "10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:progressTint="#ff1a8d3f"
+            android:progressBackgroundTint="#fffdfdfe"
+            android:visibility="visible"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:max="20"
+            android:progress="5"
+            android:indeterminate="false" />
+    </RelativeLayout>
+
+</LinearLayout>
