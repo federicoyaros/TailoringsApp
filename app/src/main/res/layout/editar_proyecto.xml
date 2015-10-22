@@ -86,29 +86,32 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Guardar"
+            android:text="GUARDAR"
             android:id="@+id/btnGuardar"
             android:layout_weight="0.29"
             android:onClick="onClickActualizarProyecto"
-            android:layout_gravity="bottom|center_horizontal" />
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#ff26b479" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Eliminar"
+            android:text="ELIMINAR"
             android:id="@+id/btnEliminar"
             android:layout_weight="0.29"
             android:onClick="onClickEliminarProyecto"
-            android:layout_gravity="bottom|center_horizontal" />
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#ffb5061b" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver"
+            android:text="VOLVER"
             android:id="@+id/btnVolver"
             android:layout_weight="0.29"
             android:onClick="onClickVolverEditarProyecto"
-            android:layout_gravity="bottom|center_horizontal" />
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#ffdc8a0f" />
     </LinearLayout>
 
 </LinearLayout>

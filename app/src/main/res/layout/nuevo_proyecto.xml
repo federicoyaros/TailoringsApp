@@ -30,9 +30,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etNombre"
-        android:backgroundTint="#ffffffff"
-        android:textColor="#ffffffff"
-        android:maxLength="30" />
+        android:background="#fffdfdfe"
+        android:textColor="#ff000000"
+        android:maxLength="30"
+        android:layout_weight="0.11" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -47,9 +48,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etResponsable"
-        android:backgroundTint="#ffffffff"
-        android:textColor="#ffffffff"
-        android:maxLength="30" />
+        android:textColor="#ff000000"
+        android:maxLength="30"
+        android:background="#fffdfdfe"
+        android:layout_weight="0.11" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -64,9 +66,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/etSocio"
-        android:backgroundTint="#ffffffff"
-        android:textColor="#ffffffff"
-        android:maxLength="30" />
+        android:textColor="#ff000000"
+        android:maxLength="30"
+        android:background="#fffdfdfe"
+        android:layout_weight="0.11" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -81,7 +84,8 @@
         android:layout_width="fill_parent"
         android:layout_height="41dp"
         android:id="@+id/spinnerMetodologia"
-        android:background="#fffdfdfe" />
+        android:background="#fffdfdfe"
+        android:layout_weight="0.05" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -98,16 +102,18 @@
             android:id="@+id/btnCrear"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_weight="0.29"
-            android:onClick="onClickCrearProyecto" />
+            android:onClick="onClickCrearProyecto"
+            android:background="#ffdc8a0f" />
 
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver"
+            android:text="VOLVER"
             android:id="@+id/btnVolver"
             android:layout_weight="0.29"
             android:onClick="onClickVolverNuevoProyecto"
-            android:layout_gravity="bottom|center_horizontal" />
+            android:layout_gravity="bottom|center_horizontal"
+            android:background="#ff26b479" />
     </LinearLayout>
 
 </LinearLayout>

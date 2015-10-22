@@ -9,7 +9,7 @@
         android:layout_height="48dp"
         android:text="+"
         android:id="@+id/button2"
-        android:background="@drawable/boton_redondo"
+        android:background="@drawable/boton_redondo_fucsia"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_alignParentTop="true"
@@ -17,15 +17,14 @@
         android:textColor="@android:color/white"
         android:textSize="@dimen/abc_text_size_headline_material"
         android:onClick="onClickNuevoTailoring"
-        android:backgroundTint="#ffb40c91" />
+         />
 
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/listViewTailorings"
         android:layout_marginTop="10dp"
-        android:background="#ff000000"
-        android:backgroundTint="#fffdfdfe" />
+        android:background="#fffdfdfe" />
 
     <TextView
         android:layout_width="wrap_content"

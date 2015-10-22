@@ -9,7 +9,7 @@
         android:layout_height="48dp"
         android:text="+"
         android:id="@+id/btn_nuevoProyecto"
-        android:background="@drawable/boton_redondo"
+        android:background="@drawable/boton_redondo_verde"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="10dp"
         android:layout_alignParentTop="true"
@@ -26,8 +26,7 @@
         android:layout_marginTop="10dp"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:background="#ff000000"
-        android:backgroundTint="#fffdfdfe"
+        android:background="#fffdfdfe"
         android:layout_alignParentStart="false" />
 
 </RelativeLayout>

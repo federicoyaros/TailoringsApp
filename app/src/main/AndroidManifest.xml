@@ -20,63 +20,63 @@
             android:name=".NuevoProyecto"
             android:label="@string/app_name" >
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".EditarProyecto"
             android:label="@string/app_name" >
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".NuevoItem"
             android:label="@string/app_name" >
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name=".NuevoTailoring"
             android:label="@string/app_name" >
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
         android:name=".CrearItemTailoring"
         android:label="@string/app_name" >
         <intent-filter>
+
             <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
         </activity>
         <activity
         android:name=".ItemTailoring"
         android:label="@string/app_name" >
         <intent-filter>
+
             <action android:name="android.intent.action.MAIN" />
 
-            <category android:name="android.intent.category.LAUNCHER" />
         </intent-filter>
     </activity>
         <activity
             android:name=".EditarTailoring"
             android:label="@string/app_name" >
             <intent-filter>
+
                 <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
     </application>

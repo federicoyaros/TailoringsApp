@@ -76,7 +76,7 @@
             android:layout_height="48dp"
             android:text="+"
             android:id="@+id/btnAgregar"
-            android:background="@drawable/boton_redondo"
+            android:background="@drawable/boton_redondo_verde"
             android:layout_marginTop="29dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
@@ -92,14 +92,13 @@
             android:layout_height="48dp"
             android:text="-"
             android:id="@+id/btnEliminar"
-            android:background="@drawable/boton_redondo"
+            android:background="@drawable/boton_redondo_rojo"
             android:layout_marginTop="29dp"
             android:layout_marginRight= "20dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
             android:textColor="@android:color/white"
             android:textSize="@dimen/abc_text_size_headline_material"
-            android:backgroundTint="#ffb5061b"
             android:onClick="onClickEliminarOpcion"
             android:layout_gravity="center_horizontal" />
 
@@ -116,7 +115,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Crear"
+            android:text="CREAR"
             android:id="@+id/btnCrear"
             android:layout_gravity="bottom|center_horizontal"
             android:layout_weight="0.29"
@@ -125,7 +124,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Volver"
+            android:text="VOLVER"
             android:id="@+id/btnVolver"
             android:layout_weight="0.29"
             android:layout_gravity="bottom"
